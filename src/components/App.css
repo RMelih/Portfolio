@@ -8,7 +8,8 @@ p {
   font-family: "Inconsolata", monospace;
 }
 
-nav {
+nav,
+.logo-name {
   font-family: "The Nautigal", cursive;
 }
 
@@ -25,4 +26,10 @@ nav {
 
 .hero-image {
   background-size: cover;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-dark {
+    background-color: #0d0d0d;
+  }
 }

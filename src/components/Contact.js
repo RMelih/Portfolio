@@ -5,10 +5,10 @@ import Link from "./Link";
 
 function Contact() {
   return (
-    <Container className="vh-100 bg-primary" id="contact" fluid>
+    <Container className="min-vh-100 bg-primary" id="contact" fluid>
+      <Row  className="px-2">
       <PageTitle title="Contact" />
-      <Row>
-        <Col className="p-4">
+        <Col className="">
           <h1 className="text-light">
             Feel free to reach out through any platforms bellow:
           </h1>

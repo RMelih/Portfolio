@@ -9,7 +9,7 @@ function HeroImage(props) {
   return (
     <div
       style={divStyle}
-      className="d-flex justify-content-center align-items-center vh-100 hero-image"
+      className="d-flex justify-content-center align-items-center min-vh-100 hero-image"
     >
       <div className="text-white border border-white p-5 rounded">
         <h1 className="display-1 ">{props.title}</h1>
