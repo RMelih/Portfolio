@@ -8,11 +8,11 @@ p {
   font-family: "Inconsolata", monospace;
 }
 
-nav,
-.logo-name {
+nav {
   font-family: "The Nautigal", cursive;
 }
 
+/* navbar colors */
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #ea0f1e !important;
@@ -28,7 +28,9 @@ nav,
   background-size: cover;
 }
 
+/* css for tablet version */
 @media only screen and (max-width: 992px) {
+  /* background color for navbar */
   .navbar-dark {
     background-color: #0d0d0d;
   }

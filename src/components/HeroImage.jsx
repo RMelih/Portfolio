@@ -2,8 +2,9 @@ import React from "react";
 import "./App.css";
 
 function HeroImage(props) {
+  //css styles
   const divStyle = {
-    backgroundImage: "url(" + props.imgUrl + ")",
+    backgroundImage: "url(" + process.env.PUBLIC_URL + props.imgUrl + ")",
   };
 
   return (

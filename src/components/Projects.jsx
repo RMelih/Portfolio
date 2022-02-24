@@ -8,7 +8,7 @@ function Projects() {
     <Container className="min-vh-100 bg-primary" id="projects" fluid>
       <Row className="px-2">
         <PageTitle title="Projects" />
-        <Col className="">
+        <Col>
           <h1 className="text-light display-3 mb-2"> Web development</h1>
           <Project
             link="https://rmelih.github.io/Todolist/"
@@ -31,7 +31,7 @@ function Projects() {
             description="One of my first websites"
           />
         </Col>
-        <Col className="">
+        <Col>
           <h1 className="text-light display-3 mb-2"> Game Development</h1>
           <Project
             link="https://melihr.itch.io/shape-gatherer"

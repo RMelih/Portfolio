@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import PageTitle from "./PageTitle";
 
-
 function About() {
   return (
     <Container className="min-vh-100 bg-primary" id="about" fluid>
@@ -19,7 +18,8 @@ function About() {
           </h3>
           <a
             className=" fs-3 text-secondary text-decoration-none"
-            href="./download/MelihCV.pdf"
+            //Download resume
+            href= {process.env.PUBLIC_URL + "/download/MelihCV.pdf" }
             download
           >
             <p>My resume(pdf)</p>

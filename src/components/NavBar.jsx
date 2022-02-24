@@ -9,19 +9,19 @@ function NavBar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="m-auto " navbarScroll>
-              <Nav.Link className="display-6  text-secondary px-lg-5" href="#home">
+              <Nav.Link className="fs-2  text-secondary px-lg-5" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="display-6 text-secondary px-lg-5" href="#about">
+              <Nav.Link className="fs-2 text-secondary px-lg-5" href="#about">
                 About
               </Nav.Link>
-              <Navbar.Brand href="#home">
-                <h1 className="display-3 px-lg-5 logo-name">MR</h1>
+              <Navbar.Brand className="fs-1 px-lg-5" href="#home">
+                MR
               </Navbar.Brand>
-              <Nav.Link className="display-6  text-secondary px-lg-5" href="#projects">
+              <Nav.Link className="fs-2 text-secondary px-lg-5" href="#projects">
                 Projects
               </Nav.Link>
-              <Nav.Link className="display-6  text-secondary px-lg-5" href="#contact">
+              <Nav.Link className="fs-2 text-secondary px-lg-5" href="#contact">
                 Contact
               </Nav.Link>
             </Nav>
